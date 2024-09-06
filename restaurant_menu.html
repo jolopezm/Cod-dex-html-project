@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌭 Completos King | Chilean fast food</title>
+
+    <style>
+        span {
+          text-decoration: underline;
+        }
+  
+        #red-word {
+          color: red;
+        }
+  
+        #blue-word {
+          color: blue;
+        }
+
+        #white-word {
+            background-color: black;
+            color: white;
+            width: 60px;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <figure style="margin:0;display:inline;">
+            <img
+                width="200"
+                src="https://comidaschilenas.com/wp-content/uploads/2021/10/Receta-de-completo-dinamico.jpg"
+                alt="Chilean completo"
+            />
+            <h1 id="red-word">Chilean completos</h1>
+            <h1 id="blue-word">world's best </h1>
+            <h1 id="white-word">food</h1>
+
+            <nav>
+                <ul>
+                  <li><a href="#menu">menu</a></li>
+                  <li><a href="#order-form">order-form</a></li>
+                </ul>
+              </nav>  
+        </figure>
+    </header>
+
+    <main>
+        <h2>Menu</h2>
+        <figure style="margin:0;display:inline;">
+            <article>
+                <img 
+                    width="150"
+                    src="https://saborx2sanmiguel.cl/wp-content/uploads/2019/08/As-Chacarero.jpg"
+                    alt="chacarero"
+                />
+                <h3>1. Chacarero</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia 
+                    <br>dolor sit amet, consectetur, adipisci velit
+                    <b>
+                        <i>1.99$</i>
+                    </b>
+                </p>
+            </article>
+            <hr/>
+
+            <article>
+                <img 
+                    width="150"
+                    src="https://comidaschilenas.com/wp-content/uploads/2021/10/Receta-de-completo-dinamico.jpg"
+                    alt="chacarero"
+                />
+                <h3>2. Dinámico</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia 
+                    <br>dolor sit amet, consectetur, adipisci velit
+                    <b>
+                        <i>1.99$</i>
+                    </b>
+                </p>
+            </article>
+            <hr/>
+
+            <article>
+                <img 
+                    width="150"
+                    src="https://finde.latercera.com/wp-content/uploads/2019/02/Completo-Italiano-ok-ok.jpg"
+                    alt="chacarero"
+                />
+                <h3>3. Italiano</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia 
+                    <br>dolor sit amet, consectetur, adipisci velit
+                    <b>
+                        <i>1.99$</i>
+                    </b>
+                </p>
+            </article>
+            <hr/>
+        </figure>
+
+        <h2>Place your order</h2>
+        <form>
+            <label>Completo Option: </label>
+            <input type ="number" min="0" max="3" required><br>
+            <p>(1 for Chacarero, 2 for Dinámico, 3 for Italiano)</p>
+          
+            <label>Add-on?</label><br>
+            <input type ="checkbox"> Ketchup
+            <input type ="checkbox"> Mayonnaise
+            <input type ="checkbox"> Avocado sauce<br><br>
+          
+            <label>Any special request?</label><br>
+            <textarea rows="7" cols="42" placeholder="Feel free to let us know how you would like your food."></textarea><br><br>
+          
+            <input type="submit" value="Go to check-out">
+          </form>
+          <hr>
+    </main>
+
+    <footer>
+        <p>Made with love by <b>joselopezm24285</b></p>
+    </footer>
+</body>
+</html>
